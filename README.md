@@ -33,6 +33,11 @@ Every developer knows that the real learning happens when things break. This pro
 
 Each error was a puzzle, and solving it was a small victory that built both my confidence and my debugging skills.
 
+
+![Profile Views](https://komarev.com/ghpvc/?username=harshraj152003&style=flat-square&color=blue)
+
+![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
+![Django](https://img.shields.io/badge/Django-5.x-green.svg)
 ---
 
 ### ✨ Final Features
