@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+My Profile
+{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+  <div class="col-md-8">
+    <div class="card text-center">
+      <div class="card-header">
+        <h2>User Profile</h2>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">@{{ user.username }}</h3>
+        <p class="card-text text-muted">{{ user.email }}</p>
+
+        <hr>
+
+        <div class="row">
+          <div class="col">
+            <h4>Total Tweets</h4>
+            <p class="display-4">{{ tweet_count }}</p>
+          </div>
+        </div>
+
+        <a href="{% url 'tweet_list' %}" class="btn btn-primary mt-3">Back to Feed</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
