@@ -6,6 +6,11 @@ This `README` documents not only the features of the application but also the ch
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
+![Django](https://img.shields.io/badge/Django-5.x-green.svg)
+
+---
+
 ### 💡 The Learning Journey: From an Idea to a Web App
 
 The primary goal was to move beyond tutorials and build something tangible. This project was a deep dive, forcing a hands-on approach to learning the essentials of web development.
@@ -34,10 +39,6 @@ Every developer knows that the real learning happens when things break. This pro
 Each error was a puzzle, and solving it was a small victory that built both my confidence and my debugging skills.
 
 
-![Profile Views](https://komarev.com/ghpvc/?username=harshraj152003&style=flat-square&color=blue)
-
-![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
-![Django](https://img.shields.io/badge/Django-5.x-green.svg)
 ---
 
 ### ✨ Final Features
