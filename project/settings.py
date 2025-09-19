@@ -21,10 +21,11 @@ load_dotenv()
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-fallback-key")
 DEBUG = os.getenv("DJANGO_DEBUG", "False").lower() == "true"
 
-# Add your live domains or Render URL here
 ALLOWED_HOSTS = [
-    "your-app.onrender.com",      # ← replace with actual host
-    "www.yourcustomdomain.com",   # ← add custom domain if any
+    "127.0.0.1",
+    "localhost",
+    "tweetbar.onrender.com",
+    "tweetbar-b8d4.onrender.com",
 ]
 
 # ---------------------------------------------------------
