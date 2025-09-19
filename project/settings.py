@@ -28,6 +28,8 @@ ALLOWED_HOSTS = [
     "tweetbar.onrender.com",
 ]
 
+print(f"Django's ALLOWED_HOSTS: {ALLOWED_HOSTS}")
+
 CSRF_TRUSTED_ORIGINS = [
     "https://tweetbar-b8d4.onrender.com",
     "https://tweetbar.onrender.com",
