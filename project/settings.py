@@ -24,8 +24,13 @@ DEBUG = os.getenv("DJANGO_DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "tweetbar.onrender.com",
     "tweetbar-b8d4.onrender.com",
+    "tweetbar.onrender.com",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://tweetbar-b8d4.onrender.com",
+    "https://tweetbar.onrender.com",
 ]
 
 # ---------------------------------------------------------
